@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none;}
+li{list-style: none;}
+img{display: block; border: none;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight: normal;}
+em,i{font-style: normal;}
+input,area{outline: none;}
+body{font-size: 14px;}
+html{font-size: 13.33vw;}
+html,body,.wrap{height: 100%;}
+header{height: 0.88rem;width: 100%; background: #3f454f; color: #fff;background: #f9f9f9;}
+header{display: flex;justify-content: ;align-items: center;}
+header .iconfont{font-size: 0.75rem;color: #010101;float: left;}
+header .tubiao{float: left;}
+header .bt{float: left;}
+ header div h2{height: 0.45rem;color: #000000;float: left;margin-left: 2.4rem;}
+ /*内容*/
+.top{display: flex;justify-content: space-between;align-items: center;}
+.top img{width100%;margin-top: 0.14rem;}
+.top .xi{font-size: 0.12rem;}
+.top .mo{margin-right:0.45rem;color: #e5e5e5;}
+.doctor_info{
+	width:5.5rem;
+	height:1rem;
+	margin-top: 0.12rem;
+	margin-left: 0.1rem;
+	margin-bottom: 0.5rem;
+}
+.doctor_info a{
+	color:#57bbce;
+}
+.bottom{border-top:3px solid #e0e0e0;}
+.bottom ul{line-height: 0.74rem;margin-left:0.37rem;}
+.bottom{display: flex;}
+.bottom ul{justify-content: center;align-items: center;display: flex;}
+.bottom ul li{
+	width:2rem;
+	height:0.6rem;
+	text-align:center;
+	border: 1px solid #e94544;
+	justify-content:center;
+	margin-right:0.5rem;
+	margin-top: 0.3rem;
+	flex-wrap: nowrap;
+}
+.doctor-info ul li:nth-child(2){margin-top: 0.02rem;}
+.bottom ul li:nth-child(3){background: #e94544;color: #ffffff;}

@@ -1,0 +1,96 @@
+  	*{margin: 0; padding: 0;}
+	    	html,body{height: 100%;}
+	    	body{font-size: 14px;}
+	    	html{font-size: 13.33vw;}
+	    	a{text-decoration: none;}
+	    	li{list-style: none;}
+	    	i{font-style: normal;}
+	    	input{outline: none;}
+	    	
+	    	header{height: 1.68rem; width: 100%; background: #e94544;}
+	    	.part-1{height: 0.88rem;}
+	    	.part-1 ul{font-size: 0.28rem;color: #fffbfb;display: flex;height: 100%;justify-content: space-around;
+	    	align-items: center;}
+	    	.search{width: 6.9rem;height: 0.6rem;margin: 0 auto;background: #fff;border-radius: 0.6rem;
+	    	display: flex;align-items: center;justify-content: space-between;}
+	    	.search input{border: none;}
+	    	.search{line-height: 0.28rem;}
+	    	.search form{margin-left: 0.22rem;}
+	    	.search i:first-child{color: #8e8e93;}
+	    	.search i:last-child{margin-right: 0.22rem;color: #E94544;}
+	    	.banner{width: 7.5rem;height: 2.4rem;}
+	    	.banner img{height: 100%;}
+	    	.nav{height: 1.5rem;width: 7.5rem;}
+	    	.nav ul{height:100%;width: 100%; display: flex;justify-content: space-around;}
+	    	.nav ul li{width: 20%; display: flex;flex-direction: column;justify-content: center;align-items: center;}
+	    	.ad-1{height: 1.68rem;width: 7.5rem;}
+	    	.ad-1 img{height: 100%;}
+            .gonggao{height: 0.56rem;width: 7.5rem;font-size: 0.24rem;color: #333333;}
+            .gonggao ul{height: 100%; width: 100%;display: flex;align-items: center;}
+            .gonggao ul li:first-child{height: 0.24rem;width: 0.48rem;margin-left: 0.31rem;}
+            .gonggao ul li:last-child{height: 0.56rem; float: left;font-size: 0.23rem;line-height: 0.56rem;margin-left: 0.24rem;}
+            .gonggao img{height:100%;}
+            .kuaisong{height: 0.8rem; width: 7.12rem;background: #fff8ee;margin: 0 auto;display: flex;justify-content: space-around;
+            border-radius: 0.05rem;}
+            .kuaisong ul{display: flex;align-items: center;}
+            .kuaisong ul{color: #e94544;}
+            .yaopin{height: 1.45rem;width: 7.5rem;display: flex;margin-top: 0.37rem;}
+            .yaopin1{display: flex;margin-left: 0.2rem;}
+            .yaopin2{display: flex;margin-left: 0.58rem;}
+            .yaopin1 ul:last-child{margin-left: 0.56rem;}
+            .yaopin2 ul:last-child{margin-left: 0.56rem;}
+            .yaopin1 ul:first-child li:first-child{width: 1.2rem;height: 0.26rem;border: 1px solid #ff5d65;border-radius: 0.05rem 0 0.05rem 0;
+            background: #FF5D65;font-size: 0.2rem;color: #fefdf9;line-height: 0.26rem;text-align: center;}
+            .yaopin2 ul:first-child li:first-child{width: 1.2rem;height: 0.26rem;border: 1px solid #ff5d65;border-radius: 0.05rem 0 0.05rem 0;
+            background: #FF5D65;font-size: 0.2rem;color: #fefdf9;line-height: 0.26rem;text-align: center;}
+            .i3{width: 0.84rem;height: 0.32rem;border: 1px solid #ff5d65;border-radius: 0.05rem;
+            background: #FF5D65;font-size: 0.2rem;color: #fefdf9;line-height: 0.32rem;text-align: center;}
+            .i1{font-size: 0.29rem;color: #363636;margin-top: 0.16rem;}
+            .i2{font-size: 0.22rem;color: #959595;margin-top: 0.11rem;}
+            .i4{font-size: 0.27rem;color: #333333;}
+            .i5{font-size: 0.25rem; color: #888888;}
+            .i6{font-size: 0.28rem;color: #e94645;float: left;margin-top: 0.2rem;}
+            .i7{font-size: 0.16rem;color: #888888;float: left;margin-top: 0.3rem;}
+            .i8{margin-left: 0.03rem;margin-top: 0.1rem;}
+            .nav{font-size: 0.25rem;color: #5b5b5b;}
+            .nav02{font-size: 0.25rem;color: #5b5b5b;}
+            .nav03{font-size: 0.25rem;color: #5b5b5b;}
+            .nav02{height: 1.5rem;width: 7.5rem;}
+	    	.nav02 ul{height:100%;width: 100%; display: flex;justify-content: space-around;}
+	    	.nav02 ul li{width: 20%; display: flex;flex-direction: column;justify-content: center;align-items: center;}
+	    	.nav03{height: 1.5rem;width: 7.5rem;}
+	    	.nav03 ul{height:100%;width: 100%; display: flex;justify-content: space-around;}
+	    	.nav03 ul li{width: 20%; display: flex;flex-direction: column;justify-content: center;align-items: center;}
+            .nuanbaobao ul:first-child li{width: 3.2rem;height: 2.42rem;}
+            .nuanbaobao ul:first-child img{height: 100%;}
+            .dijia{width: 1.02rem; height: 0.32rem;border: 1px solid #e94645;font-size: 0.2rem;border-radius: 4px;color: #e94645;}
+            .yiyuan{width: 0.91rem;height: 0.32rem;border: 1px solid #e94645;font-size: 0.2rem;border-radius: 4px;color: #e94645;}
+            .lisheng{width: 1.32rem; height: 0.32rem;border: 1px solid #e94645;font-size: 0.2rem;border-radius: 4px;color: #e94645;}
+            .nuanbaobao{display: flex;}
+            .nuanbaobao ul:nth-child(2) li:nth-child(1){float: left;}
+            .nuanbaobao ul:last-child li:last-child{float: right;color: #E94645;font-size: 0.48rem;}
+            .nuanbaobao ul:first-child{margin-left: 0.2rem;}
+            .nuanbaobao ul:last-child{margin-left: 0.2rem;}
+            .nuanbaobao ul:last-child{margin-right: 0.2rem;}
+            .weishengsu ul:last-child{margin-right: 0.2rem;}
+            .weishengsu{margin-top: 0.55rem;}
+            .weishengsu img{height: 100%;}
+            .weishengsu ul:first-child li{width: 3.2rem;height: 2.42rem;}margin-right: 0.2rem;
+            .weishengsu ul:first-child img{height: 100%;}
+            .weishengsu{display: flex;}
+            .weishengsu ul:nth-child(2) li:nth-child(1){float: left;}
+            .weishengsu ul:last-child li:last-child{float: right;color: #E94645;font-size: 0.48rem;}
+            .weishengsu ul:first-child{margin-left: 0.2rem;}
+            .weishengsu ul:last-child{margin-left: 0.2rem;}
+            .ad-2{width: 7.48rem;height: 3.06rem;border: 0.01rem solid #eeeeee;margin-top: 0.3rem;margin-bottom: 0.21rem;}
+            .ad-2 img{height: 100%;}
+            footer{background: #fff; border-top: 1px solid #d9d9d9; height: 1rem;color: #6c7076;}
+            footer ul{display: flex;height: 100%;}
+            footer ul li{flex: 1; font-size: 0.24rem; display: flex; flex-direction: column; 
+            justify-content: center;align-items: center;color: #929292;}
+            footer .active{color: #e94544;}
+            footer ul li i{font-size: 0.46rem!important;}
+            body{display: flex;flex-direction: column;}
+            section{overflow-y: auto;flex: 1;}
+            
+          
